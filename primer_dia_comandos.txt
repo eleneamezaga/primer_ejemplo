@@ -1,0 +1,554 @@
+
+C:\Users\PORTATIL>
+C:\Users\PORTATIL>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1814-AC85
+
+ Directorio de C:\Users\PORTATIL
+
+06/03/2024  00:34    <DIR>          .
+24/07/2023  14:18    <DIR>          ..
+24/07/2023  14:01    <DIR>          Contacts
+16/04/2024  17:28    <DIR>          Desktop
+26/02/2024  13:31    <DIR>          Documents
+17/04/2024  10:10    <DIR>          Downloads
+24/07/2023  14:01    <DIR>          Favorites
+24/07/2023  14:01    <DIR>          Links
+24/07/2023  14:01    <DIR>          Music
+24/07/2023  14:03    <DIR>          OneDrive
+20/11/2023  11:20    <DIR>          Pictures
+24/07/2023  14:01    <DIR>          Saved Games
+24/07/2023  14:31    <DIR>          Searches
+21/03/2024  18:59    <DIR>          Videos
+29/01/2024  10:16    <DIR>          wekafiles
+               0 archivos              0 bytes
+              15 dirs  909.604.454.400 bytes libres
+
+C:\Users\PORTATIL>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1814-AC85
+
+ Directorio de C:\Users\PORTATIL
+
+06/03/2024  00:34    <DIR>          .
+24/07/2023  14:18    <DIR>          ..
+24/07/2023  14:01    <DIR>          Contacts
+16/04/2024  17:28    <DIR>          Desktop
+26/02/2024  13:31    <DIR>          Documents
+17/04/2024  10:10    <DIR>          Downloads
+24/07/2023  14:01    <DIR>          Favorites
+24/07/2023  14:01    <DIR>          Links
+24/07/2023  14:01    <DIR>          Music
+24/07/2023  14:03    <DIR>          OneDrive
+20/11/2023  11:20    <DIR>          Pictures
+24/07/2023  14:01    <DIR>          Saved Games
+24/07/2023  14:31    <DIR>          Searches
+21/03/2024  18:59    <DIR>          Videos
+29/01/2024  10:16    <DIR>          wekafiles
+               0 archivos              0 bytes
+              15 dirs  909.604.454.400 bytes libres
+
+C:\Users\PORTATIL> dir config -- list
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1814-AC85
+
+ Directorio de C:\Users\PORTATIL
+
+
+ Directorio de C:\Users\PORTATIL
+
+
+ Directorio de C:\Users\PORTATIL
+
+No se encuentra el archivo
+
+C:\Users\PORTATIL>git config
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+
+C:\Users\PORTATIL>git config --global user.name "Elene Amezaga"
+
+C:\Users\PORTATIL>git congig --list
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+C:\Users\PORTATIL>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Elene Amezaga
+
+C:\Users\PORTATIL>git config --globar user.email "elene.amezaga@alumni.mondragon.edu"
+error: unknown option `globar'
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+
+C:\Users\PORTATIL>git config --global user.email "elene.amezaga@alumni.mondragon.edu"
+
+C:\Users\PORTATIL>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Elene Amezaga
+user.email=elene.amezaga@alumni.mondragon.edu
+
+C:\Users\PORTATIL>git config --global core.editor VIM
+
+C:\Users\PORTATIL>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Elene Amezaga
+user.email=elene.amezaga@alumni.mondragon.edu
+core.editor=VIM
+
+C:\Users\PORTATIL>cd Documents
+
+C:\Users\PORTATIL\Documents>cd C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git init
+Initialized empty Git repository in C:/Users/PORTATIL/Desktop/1┬║BData/DATA SCIENCE/Reto4 - Data Science/primer_ejemplo_git/.git/
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo1.txt
+        archivo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git add archivo1.txt
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   archivo1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo2.txt
+
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git commit -m "Commiteamos el primer archivo"
+[master (root-commit) ab1334c] Commiteamos el primer archivo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo1.txt
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log --online
+fatal: unrecognized argument: --online
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log --oneline
+ab1334c (HEAD -> master) Commiteamos el primer archivo
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Una carpeta/
+        archivo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git add .
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Una carpeta/otrofichero.txt
+        new file:   Una carpeta/otrofichero2.txt
+        new file:   archivo2.txt
+
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git commint -m "Commiteamos muchos ficheros"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git commit -m "Commiteamos muchos ficheros"
+[master 90548aa] Commiteamos muchos ficheros
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Una carpeta/otrofichero.txt
+ create mode 100644 Una carpeta/otrofichero2.txt
+ create mode 100644 archivo2.txt
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log --oneline
+90548aa (HEAD -> master) Commiteamos muchos ficheros
+ab1334c Commiteamos el primer archivo
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log
+commit 90548aa58c6437097b02d225e0ddab5012ea01f2 (HEAD -> master)
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:27 2024 +0200
+
+    Commiteamos muchos ficheros
+
+commit ab1334c23e7522e24c65a68523d0f9488361ac06
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:20 2024 +0200
+
+    Commiteamos el primer archivo
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git restore archivo1.txt
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status´
+git: 'status┬┤' is not a git command. See 'git --help'.
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git add .
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   archivo1.txt
+
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git commit -m "archivo1 modificado"
+[master 48fc923] archivo1 modificado
+ 1 file changed, 1 insertion(+)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch rama_Elene
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch -a
+* master
+  rama_Elene
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git checkout rama_Elene
+Switched to branch 'rama_Elene'
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch -a
+  master
+* rama_Elene
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch rama_Elene
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch rama_Elene
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git commit -m "modifico archivo1 en rama"
+On branch rama_Elene
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch rama_Elene
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git add .
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git commit -m "modifico archivo1 en rama"
+[rama_Elene 2c29d68] modifico archivo1 en rama
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch rama_Elene
+nothing to commit, working tree clean
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log
+commit 2c29d68d9a2e13a1989f19cc41d89d9f93c3c315 (HEAD -> rama_Elene)
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 11:00:32 2024 +0200
+
+    modifico archivo1 en rama
+
+commit 48fc92342119faffb41efb8d3e77f52d8f6d6275 (master)
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:53:07 2024 +0200
+
+    archivo1 modificado
+
+commit 90548aa58c6437097b02d225e0ddab5012ea01f2
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:27 2024 +0200
+
+    Commiteamos muchos ficheros
+
+commit ab1334c23e7522e24c65a68523d0f9488361ac06
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:20 2024 +0200
+
+    Commiteamos el primer archivo
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git checkout master
+Switched to branch 'master'
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log
+commit 48fc92342119faffb41efb8d3e77f52d8f6d6275 (HEAD -> master)
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:53:07 2024 +0200
+
+    archivo1 modificado
+
+commit 90548aa58c6437097b02d225e0ddab5012ea01f2
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:27 2024 +0200
+
+    Commiteamos muchos ficheros
+
+commit ab1334c23e7522e24c65a68523d0f9488361ac06
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:20 2024 +0200
+
+    Commiteamos el primer archivo
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git checkout rama_Elene
+Switched to branch 'rama_Elene'
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch -a
+  master
+* rama_Elene
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git merge rama_Elene
+Already up to date.
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git checkout master
+Switched to branch 'master'
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch -a
+* master
+  rama_Elene
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git merge rama_Elene
+Updating 48fc923..2c29d68
+Fast-forward
+ archivo1.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch -d rama_Elene
+Deleted branch rama_Elene (was 2c29d68).
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git branch -a
+* master
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>git log
+commit 2c29d68d9a2e13a1989f19cc41d89d9f93c3c315 (HEAD -> master)
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 11:00:32 2024 +0200
+
+    modifico archivo1 en rama
+
+commit 48fc92342119faffb41efb8d3e77f52d8f6d6275
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:53:07 2024 +0200
+
+    archivo1 modificado
+
+commit 90548aa58c6437097b02d225e0ddab5012ea01f2
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:27 2024 +0200
+
+    Commiteamos muchos ficheros
+
+commit ab1334c23e7522e24c65a68523d0f9488361ac06
+Author: Elene Amezaga <elene.amezaga@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:20 2024 +0200
+
+    Commiteamos el primer archivo
+
+C:\Users\PORTATIL\Desktop\1ºBData\DATA SCIENCE\Reto4 - Data Science\primer_ejemplo_git>
